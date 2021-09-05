@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { MessengerIcon } from "../components/Icons";
 import Navbar from "../components/Navbar";
+import PageContent from "../components/PageContent";
 
 export default function Home() {
   return (
@@ -11,9 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Navbar />
-      </main>
+      <Navbar />
+      <PageContent />
     </div>
   );
 }
