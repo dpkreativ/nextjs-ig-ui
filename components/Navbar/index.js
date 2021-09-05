@@ -30,7 +30,7 @@ const Navbar = () => {
             placeholder="Search"
           />
         </div>
-        <div className="flex items-center space-x-4 text-lg">
+        <div className="flex items-center space-x-5 text-lg">
           <HomeIcon />
           <MessengerIcon />
           <ExploreIcon />
