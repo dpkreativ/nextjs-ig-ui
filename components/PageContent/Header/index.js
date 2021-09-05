@@ -1,5 +1,11 @@
+import ProfileImage from "./ProfileImage";
+
 const Header = () => {
-  return <header className="p-5 flex">This is the header</header>;
+  return (
+    <header className="p-5 flex">
+      <ProfileImage />
+    </header>
+  );
 };
 
 export default Header;
