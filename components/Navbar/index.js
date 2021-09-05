@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { HomeIcon, MessengerIcon } from "../Icons";
+import { ExploreIcon, HeartIcon, HomeIcon, MessengerIcon } from "../Icons";
 import logo from "../../assets/images/instagram_logo.png";
 
 const Navbar = () => {
@@ -33,6 +33,8 @@ const Navbar = () => {
         <div className="flex items-center space-x-4 text-lg">
           <HomeIcon />
           <MessengerIcon />
+          <ExploreIcon />
+          <HeartIcon />
           <div className="w-6 h-6">
             <img
               src="https://res.cloudinary.com/dpkreativ/image/upload/v1616357794/IMG_-oi62yk_wtfop2.jpg"
