@@ -1,7 +1,9 @@
+import Header from "./Header";
+
 const PageContent = () => {
   return (
     <main>
-      <h1>This is the main page content</h1>
+      <Header />
     </main>
   );
 };
