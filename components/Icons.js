@@ -1,4 +1,4 @@
-export function Messenger({ className }) {
+export function MessengerIcon({ className }) {
   return (
     <svg
       aria-label="Messenger"
@@ -14,7 +14,7 @@ export function Messenger({ className }) {
   );
 }
 
-export function Home({ className }) {
+export function HomeIcon({ className }) {
   return (
     <svg
       aria-label="Home"
@@ -30,7 +30,7 @@ export function Home({ className }) {
   );
 }
 
-export function Explore({ className }) {
+export function ExploreIcon({ className }) {
   return (
     <svg
       aria-label="Find People"
@@ -50,7 +50,7 @@ export function Explore({ className }) {
   );
 }
 
-export function Heart({ className }) {
+export function HeartIcon({ className }) {
   return (
     <svg
       aria-label="Activity Feed"
