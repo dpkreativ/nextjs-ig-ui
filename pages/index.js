@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Messenger } from "../components/Icons";
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
 
       <main>
         <h1>This is Instagram</h1>
+        <p>
+          <Messenger />
+        </p>
       </main>
     </div>
   );
