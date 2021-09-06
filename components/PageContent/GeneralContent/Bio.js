@@ -1,6 +1,6 @@
-const Bio = () => {
+const Bio = ({ className }) => {
   return (
-    <div className="text-sm p-5 md:hidden">
+    <div className={`${className} text-sm`}>
       <h1 className="font-bold">Estelle</h1>
       <p>
         An online store 🏬 we deal on all kinds of footwear 👠👞 for both male
