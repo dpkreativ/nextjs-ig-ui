@@ -10,8 +10,8 @@ const ProfileImage = () => {
             null
           }
           className="rounded-full"
-          width="100%"
-          height="100%"
+          width="160"
+          height="160"
           alt="main profile"
         />
       </div>
