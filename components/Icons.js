@@ -139,7 +139,7 @@ export function PostsIcon({ className }) {
   return (
     <svg
       aria-label="Posts"
-      class={className}
+      className={className}
       fill={"currentColor" || "#5a5a5a"}
       height="24"
       role="img"
