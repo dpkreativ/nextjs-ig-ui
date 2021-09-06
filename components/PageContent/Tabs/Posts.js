@@ -1,5 +1,19 @@
 const Posts = () => {
-  return <div>This is a post</div>;
+  return (
+    <div className="grid grid-cols-3 gap-1">
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+      <div className="bg-gray-400 aspect-w-1 aspect-h-1"></div>
+    </div>
+  );
 };
 
 export default Posts;
