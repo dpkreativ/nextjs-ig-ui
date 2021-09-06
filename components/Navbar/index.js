@@ -5,7 +5,7 @@ import logo from "../../assets/images/instagram_logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="border-b border-gray-200 bg-white">
+    <nav className="border-b border-gray-200 bg-white sticky">
       <div className="max-w-screen-lg mx-auto px-5 h-14 flex items-center justify-between">
         <div>
           <Link href="https://instagram.com">
