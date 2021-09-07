@@ -1,9 +1,10 @@
 import Head from "next/head";
-import Footer from "../components/Footer.js";
+import Footer from "../components/Footer";
+import { Media } from "../components/Media";
 import Navbar from "../components/Navbar";
 import PageContent from "../components/PageContent";
 
-export default function Home() {
+export default function Home({ media }) {
   return (
     <div>
       <Head>
@@ -13,8 +14,16 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <PageContent />
+      <PageContent media={media} />
       <Footer />
     </div>
   );
 }
+
+export const getStaticProps = async () => {
+  return {
+    props: {
+      media: Media,
+    },
+  };
+};

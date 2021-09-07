@@ -5,7 +5,7 @@ export const Media = [
   },
   {
     id: 2,
-    url: "https://res.cloudinary.com/dpkreativ/video/upload/v1631011682/nextjs-ig-ui/vid_1_urnynj.mp4",
+    url: "https://res.cloudinary.com/dpkreativ/image/upload/v1631011509/nextjs-ig-ui/img_9_zpwfqg.jpg",
   },
   {
     id: 3,

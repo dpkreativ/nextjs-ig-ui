@@ -1,7 +1,7 @@
 import { PostsIcon } from "../../Icons";
 import Posts from "./Posts";
 
-const Tabs = () => {
+const Tabs = ({ media }) => {
   return (
     <section className="max-w-screen-lg mx-auto px-5">
       <div className="p-5 flex justify-center md:border-t border-gray-300">
@@ -14,7 +14,7 @@ const Tabs = () => {
         </button>
       </div>
       <div>
-        <Posts />
+        <Posts media={media} />
       </div>
     </section>
   );
