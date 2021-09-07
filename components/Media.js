@@ -31,7 +31,7 @@ export const Media = [
   {
     id: 7,
     tag: "img",
-    url: "https://res.cloudinary.com/dpkreativ/image/upload/v1631011500/nextjs-ig-ui/img_12_jvdruv.jpg",
+    url: "https://res.cloudinary.com/dpkreativ/image/upload/v1631011509/nextjs-ig-ui/img_9_zpwfqg.jpg",
   },
   {
     id: 8,
