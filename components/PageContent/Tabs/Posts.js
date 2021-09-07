@@ -9,10 +9,10 @@ const Posts = ({ media }) => {
             key={item.id}
             className="bg-gray-400 aspect-w-1 aspect-h-1 object-cover"
           >
-            {item.tag === "vid" ? (
-              <Video src={item.url} />
-            ) : item.tag === "img" ? (
+            {item.tag === "img" ? (
               <Image src={item.url} />
+            ) : item.tag === "vid" ? (
+              <Video src={item.url} />
             ) : null}
           </div>
         ))}
