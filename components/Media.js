@@ -21,6 +21,7 @@ export const Media = [
   },
   {
     id: 5,
+    tag: "img",
     url: "https://res.cloudinary.com/dpkreativ/image/upload/v1631011549/nextjs-ig-ui/img_2_xtvh5s.jpg",
   },
   {
