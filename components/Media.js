@@ -45,3 +45,11 @@ export const Media = [
     url: "https://res.cloudinary.com/dpkreativ/image/upload/v1631011498/nextjs-ig-ui/img_11_xp9lxn.jpg",
   },
 ];
+
+export const Image = ({ src, alt }) => {
+  return <img src={src} alt={alt || "post"} />;
+};
+
+export const Video = ({ src }) => {
+  return <video src={src}></video>;
+};
