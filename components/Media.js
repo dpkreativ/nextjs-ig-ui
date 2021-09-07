@@ -46,10 +46,12 @@ export const Media = [
   },
 ];
 
-export const Image = ({ src, alt }) => {
-  return <img src={src} alt={alt || "post"} />;
+export const Image = ({ src, alt, className }) => {
+  return <img src={src} alt={alt || "post"} className={className} />;
 };
 
-export const Video = ({ src }) => {
-  return <video src={src}></video>;
+export const Video = ({ src, className }) => {
+  return (
+    <video preload="auto" controls src={src} className={className}></video>
+  );
 };

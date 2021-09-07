@@ -10,9 +10,9 @@ const Posts = ({ media }) => {
             className="bg-gray-400 aspect-w-1 aspect-h-1 object-cover"
           >
             {item.tag === "img" ? (
-              <Image src={item.url} />
+              <Image src={item.url} className="w-full h-full object-cover" />
             ) : item.tag === "vid" ? (
-              <Video src={item.url} />
+              <Video src={item.url} className="w-full h-full object-cover" />
             ) : null}
           </div>
         ))}
