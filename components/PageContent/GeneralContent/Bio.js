@@ -6,8 +6,9 @@ const Bio = ({ className }) => {
       <h1 className="font-bold">Estelle</h1>
       <p>
         An online store 🏬 we deal on all kinds of footwear 👠👞 for both male
-        and female. Contact us ☎ @08141703050. Worldwide delivery 🌍 @Owerri,
-        Nigeria
+        and female. Contact us ☎{" "}
+        <span className="text-blue-600">@08141703050</span>. Worldwide delivery
+        🌍 <span className="text-blue-600">@Owerri</span>, Nigeria
       </p>
       <Link href="https://instagram.com">
         <p className="text-xs py-5">

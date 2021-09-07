@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer.js";
 import Navbar from "../components/Navbar";
 import PageContent from "../components/PageContent";
 
@@ -13,6 +14,7 @@ export default function Home() {
 
       <Navbar />
       <PageContent />
+      <Footer />
     </div>
   );
 }
