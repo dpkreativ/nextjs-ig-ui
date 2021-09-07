@@ -1,17 +1,19 @@
+import { Image, Video } from "../../Media";
+
 const Posts = ({ media }) => {
   return (
     <div className="grid grid-cols-3 gap-1 md:gap-8">
       {media &&
-        media.map((image) => (
+        media.map((item) => (
           <div
-            key={image.id}
+            key={item.id}
             className="bg-gray-400 aspect-w-1 aspect-h-1 object-cover"
           >
-            <img
-              src={image.url}
-              alt={`post ${image.id}`}
-              className="w-full h-full"
-            />
+            {item.tag === "vid" ? (
+              <Video src={item.url} />
+            ) : item.tag === "img" ? (
+              <Image src={item.url} />
+            ) : null}
           </div>
         ))}
     </div>
