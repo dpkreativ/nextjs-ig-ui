@@ -29,11 +29,8 @@ const Modal = ({ show, onClose, children, title }) => {
         id="modal"
         className="bg-gray-800 overflow-x-auto flex flex-col w-full max-w-xs md:max-w-md h-full rounded-lg mx-auto"
       >
-        <hr className="text-white my-2 w-full h-1" />
-        <header
-          id="modal-header"
-          className="px-4 flex justify-between items-center"
-        >
+        <header id="modal-header" className="px-4 py-2 flex flex-col">
+          <hr className="text-white my-2 w-full" />
           <div className="flex space-x-2">
             <Image
               src={
@@ -45,7 +42,7 @@ const Modal = ({ show, onClose, children, title }) => {
               height="30"
               alt="main profile"
             />
-            <PageName />
+            <PageName className="text-white font-bold" />
           </div>
         </header>
         <section></section>
