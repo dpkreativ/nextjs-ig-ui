@@ -1,7 +1,13 @@
-import Image from "next/image";
 import Link from "next/link";
-import { ExploreIcon, HeartIcon, HomeIcon, MessengerIcon } from "../Icons";
-import logo from "../../assets/images/instagram_logo.png";
+import Image from "next/image";
+import {
+  ExploreIcon,
+  HeartIcon,
+  HomeIcon,
+  InstagramLogo,
+  MessengerIcon,
+} from "../Icons";
+import dp from "../../assets/images/dp.jpg";
 
 const Navbar = () => {
   return (
@@ -9,15 +15,8 @@ const Navbar = () => {
       <div className="max-w-screen-lg mx-auto px-5 h-14 flex items-center justify-between">
         <div>
           <Link href="https://instagram.com">
-            <div id="logo" className="pt-3">
-              <Image
-                src={
-                  "https://res.cloudinary.com/dpkreativ/image/upload/v1630370789/instagram/instagram_logo_fnavxd.png" ||
-                  logo
-                }
-                width="103px"
-                height="29px"
-              />
+            <div id="logo" className="pt-2 text-black">
+              <InstagramLogo />
             </div>
           </Link>
         </div>
@@ -36,10 +35,12 @@ const Navbar = () => {
           <ExploreIcon />
           <HeartIcon />
           <div className="w-6 h-6">
-            <img
-              src="https://res.cloudinary.com/dpkreativ/image/upload/v1616357794/IMG_-oi62yk_wtfop2.jpg"
+            <Image
+              src={dp}
               alt="profile"
-              className="w-full h-full rounded-full"
+              width="22"
+              height="22"
+              className="rounded-full object-cover"
             />
           </div>
         </div>
