@@ -172,12 +172,6 @@ export function CloseIcon({ className }) {
   );
 }
 
-// export function InstagramLogo({ className }) {
-//   return (
-
-//   );
-// }
-
 export function InstagramLogo() {
   return (
     <svg
