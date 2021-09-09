@@ -8,7 +8,7 @@ const ProfileUserData = () => {
   return (
     <section className="w-2/3">
       <div className="grid grid-cols-2 md:flex md:space-x-8 items-center gap-y-4">
-        <PageName />
+        <PageName className="text-3xl" />
         <MoreOptions />
         <ActionButtons />
       </div>
