@@ -2809,6 +2809,11 @@ react-dom@17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-insta-stories@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/react-insta-stories/-/react-insta-stories-2.2.3.tgz#0ec492f409c113822e96632670db2e165b5904cf"
+  integrity sha512-egToX2loFViBPRFb0wptvOKORoTIodEARV/Adzp5lc3nFxe1vEoY8+aOCGTH5tePp3wXX+nz8mjkdfI/g/raaw==
+
 react-is@17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"

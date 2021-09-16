@@ -1,10 +1,10 @@
 import ProfileImage from "./ProfileImage";
 import ProfileUserData from "./ProfileUserData";
 
-const Header = () => {
+const Header = ({ stories }) => {
   return (
     <header className="p-5 flex max-w-screen-lg mx-auto">
-      <ProfileImage />
+      <ProfileImage stories={stories} />
       <ProfileUserData />
     </header>
   );
