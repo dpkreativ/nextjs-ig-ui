@@ -11,7 +11,7 @@ const Modal = ({ show, children }) => {
   const modalContent = show ? (
     <div
       id="modal-backdrop"
-      className="fixed inset-0 bg-gray-600 flex justify-between items-center p-5"
+      className="fixed inset-0 bg-gray-600 flex justify-center items-center p-5"
     >
       {children}
     </div>
